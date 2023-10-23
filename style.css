@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(istockphoto-875207140-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    color: rgb(252, 252, 252);
+}
+
+.container{
+    display: flex;
+   
+}
+.logo h1{
+    font-size: 21px;
+    color: rgb(252, 246, 246);
+    border: 2px solid green;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.logo h1:hover{
+    background-color: green;
+}
+.menu{
+    margin: 12px;
+}
+.menu ul{
+    display: flex;
+}
+.menu li{
+list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin: 1px;
+    padding: 1px;
+    margin-right: 126px;
+}
+.menu a:hover{
+  color: rgb(56, 163, 7);
+}
+.call{
+    font-size: 12px;
+    color: rgb(240, 240, 240);
+    border: 2px solid green;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 1px;
+   
+}
+.call:hover{
+    background-color: rgb(6, 163, 6);
+}
+.text{
+
+width: 600px;
+text-align: center;
+margin: 150px;
+margin-left: 312px;
+
+}
+.text p {
+color: white;
+}
+.text h1 {
+   color: white;
+   background-color: green;
+}
+.btn{
+  font-size: 20px;
+  background-color: rgb(255, 254, 254);
+  color: black;
+  border: 2px solid green;
+  border-radius: 10px;
+}
+.btn:hover{
+    background-color: rgb(4, 147, 4);
+}
+.about{
+    text-align: center;
+}
+.bx{
+    display: flex;
+}
+.box{
+    border: 2px solid white;
+    margin: 10px;
+    border-radius: 12px;
+}
+.box:hover{
+    background-color: green;
+}
+.box i{
+    font-size: 62px;
+    color: yellow;
+}
+
+.service p {
+    margin: 20px;
+    padding: 15px;
+    width: 400px;
+    font-size: 20px;
+    background-color: rgb(111, 125, 111);
+
+}
+.service p:hover{
+    color: black;
+}
+.service h1{
+    margin: 20px;
+    padding: 15px;
+    width: 400px;
+    margin: auto;
+    
+}
+.service h2{
+    margin: 20px;
+    padding: px;
+    width: 400px;
+  
+}
+.btn1{
+    border: 2px solid green;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-left: 110px;
+}
+.btn1:hover{
+    background-color: green;
+}
+.service img{
+    width: 500px;
+    height: 450px;
+    float: right;
+    margin-top: -501px;
+    padding: 70px;
+    background: none;
+}
+.service h3{
+    float: right;
+    margin-top: -501px;
+    font-size: 30px;
+    padding: 30px;
+    margin-right: 161px;
+}
